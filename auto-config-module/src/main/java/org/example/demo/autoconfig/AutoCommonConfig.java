@@ -3,8 +3,6 @@ package org.example.demo.autoconfig;
 import org.example.demo.DemoServiceImpl;
 import org.example.demo.IService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -32,6 +30,7 @@ public class AutoCommonConfig {
     public AutoSpecificConfig autoSpecificConfig(){
         return new AutoSpecificConfig();
     }
+
 
     // 两个角度，class,bean & 缺失或者有
     //@ConditionalOnBean

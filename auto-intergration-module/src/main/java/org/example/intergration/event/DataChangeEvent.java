@@ -1,4 +1,4 @@
-package org.example.demo.event;
+package org.example.intergration.event;
 
 import org.example.demo.enums.DataChangeType;
 import org.springframework.context.ApplicationEvent;
