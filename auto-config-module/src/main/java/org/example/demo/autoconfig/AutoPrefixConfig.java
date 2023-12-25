@@ -1,12 +1,12 @@
-package org.example.demo;
+package org.example.demo.autoconfig;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * @author liyunfei
  **/
-@ConfigurationProperties(prefix = "test")
-public class AutoDemoConfig {
+@ConfigurationProperties(prefix = "auto.config.prefix")
+public class AutoPrefixConfig {
 
     private String val;
 

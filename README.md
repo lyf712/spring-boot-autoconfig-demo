@@ -5,3 +5,7 @@
 1. 自动装配、@Bean，@Configuration，@Onditional，@PropteryOnCondition等注解熟悉
 2. ApplicationContext的熟悉使用，用于获取 应用的基本信息及信息传递
 3. Spring的Listener、事件机制
+# 三、參考
+1. shenyu 的自动装配设计
+- 通过自动装配 ，配置Listener去监听 API、META、URI的信息注册
+- 通过自动装配 ，将启动配置信息加载到 运行实例之中

@@ -1,4 +1,4 @@
-package org.example.intergration;
+package org.example.intergration.conroller;
 
 import org.example.demo.IService;
 import org.springframework.beans.factory.annotation.Autowired;

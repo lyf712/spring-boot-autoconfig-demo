@@ -1,2 +1,7 @@
-test:
-  val: lyf
+auto:
+  config:
+    prefix:
+       val: prefixValue
+
+    specific:
+      hello: specificValue

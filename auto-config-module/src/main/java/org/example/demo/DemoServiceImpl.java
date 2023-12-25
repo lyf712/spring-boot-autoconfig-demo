@@ -13,7 +13,6 @@ public class DemoServiceImpl implements IService{
 
     @Override
     public void hello() {
-        System.out.println("hello,val:");
-        System.out.println(val);
+        System.out.printf("hello : %s \n", val);
     }
 }
